@@ -1,0 +1,37 @@
+/* public/styles.css */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Changed from 'top' to 'flex-start' */
+  height: 100vh;
+  margin: 0; /* Added top margin */
+  font-family: Arial, sans-serif;
+  background-color: rgb(231, 229, 229);
+
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column; /* Arrange items in a column */
+  align-items: center;
+  max-width: 1100px; /* Adjust to fit laptop screen width */
+  margin: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.chart-container {
+  width: 700px; /* Adjust as needed for laptop screen */
+  height: 300px;
+  margin: 20px;
+  
+}
+
+.bottom-charts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  width: 80%; /* Ensure it takes the full width of the container */
+}

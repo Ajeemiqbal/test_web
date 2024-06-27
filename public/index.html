@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health Monitoring</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h1 style="text-align: center;"><p style="background-color: rgb(45, 0, 118); color: aliceblue; padding: 10px; margin: 10px; border-radius: 10px">Health Monitoring Dashboard</p><p style="margin-top: 200px; font-size: larger;">What is your diagnosis?</p><p>What will you do?</p></h1>
+  
+
+  <div class="dashboard-container">
+    <div class="chart-container">
+      <canvas id="heartRateChart"></canvas>
+    </div>
+    <div class="bottom-charts">
+      <div class="chart-container">
+        <canvas id="bloodPressureChart"></canvas>
+      </div>
+      <div class="chart-container">
+        <canvas id="spo2Chart"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
